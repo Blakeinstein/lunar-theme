@@ -23,7 +23,7 @@ const maintainers = Array.from(new Set(port.maintainers))
       <div class="text-s font-medium overflow-hidden overflow-ellipsis">
         {maintainers.map((m, idx) => 
           <>
-            <a href={m.url} rel="external" target="_blank" class="link normal-case">{m.name}</a>{idx != maintainers.length - 1 && <span class="inline"> , </span>}
+            <a href={m.url} rel="external" target="_blank" class="link normal-case">{m.name}</a>{idx != maintainers.length - 1 && <span class="inline">, </span>}
           </>
         )}
       </div>
