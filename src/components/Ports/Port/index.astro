@@ -10,7 +10,7 @@ const maintainers = Array.from(new Set(port.maintainers))
 <li x-show={`filtered.has('port-${ port.name }')`}>
   <div class="px-2 py-8 sm:py-12 btn card card-compact p-0 h-full drop-shadow-xl shadow-lg hover:shadow-primary hover:shadow">
     
-    <div class="card-body items-center text-center">
+    <div class="card-body items-center text-center w-full h-full">
       <a
         rel="external"
         target="_blank"
@@ -20,7 +20,7 @@ const maintainers = Array.from(new Set(port.maintainers))
       >
         {port.name}
       </a>
-      <div class="text-s font-medium whitespace-nowrap overflow-hidden overflow-ellipsis">
+      <div class="text-s font-medium overflow-hidden overflow-ellipsis">
         {maintainers.map((m, idx) => 
           <>
             <a href={m.url} rel="external" target="_blank" class="link normal-case">{m.name}</a>{idx != maintainers.length - 1 && <span class="inline"> , </span>}
