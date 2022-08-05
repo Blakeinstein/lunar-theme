@@ -118,5 +118,17 @@
 		],
 		"keywords": ["terminal, linux, konsole"],
 		"variants": false
+	},
+	{
+		"name": "Pi-hole",
+		"repo": "https://github.com/lunar-theme/pi-hole",
+		"maintainers": [
+			{
+				"name": "sheep",
+				"url": "https://sheepdev.xyz"
+			}
+		],
+		"keywords": ["css"],
+		"variants": false
 	}
 ]
