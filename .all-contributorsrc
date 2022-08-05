@@ -34,7 +34,8 @@
       "profile": "https://pukima.site",
       "contributions": [
         "doc",
-        "data"
+        "data",
+        "code"
       ]
     }
   ],
